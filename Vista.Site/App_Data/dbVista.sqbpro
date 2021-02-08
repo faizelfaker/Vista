@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/PROJECTS/Vista/Vista.Site/App_Data/dbVista.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="233"/><column_width id="1" width="0"/><column_width id="2" width="72"/><column_width id="3" width="1584"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="2" parent="0"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,6:mainImages"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO RSSFeed
+(Title, Description, Link, Generator, LastBuildDate, Ttl, Copyright, Language)
+VALUES
+('Title', 'Des', 'Lnk', 'Gen', '2020-10-01', 3, 'Copyright', 'Lan')
+
+SELECT * FROM RSSFeed
+
+SELECT * FROM Items WHERE ItemId = 1
+
+SELECT * FROM RSSFeed WHERE Copyright = 'Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.'
+
+DELETE FROM RSSFeed WHERE Copyright = 'Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.'
+
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
