@@ -17,9 +17,7 @@ namespace Vista.Site
         /// <returns></returns>
         public SQLiteConnection DBInstance()
         {
-            //var strVistaConnection = ConfigurationManager.AppSettings["dbVistaLive"];
             var strVistaConnection = AppDomain.CurrentDomain.GetData("DataDirectory") + ConfigurationManager.ConnectionStrings["dbVistaLive"].ToString();
-
 
             var conn = new SQLiteConnection(@"Data Source=" + strVistaConnection);
             conn.Open();
