@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta name="viewport" content="width=device-width" />
+    <meta content='maximum-scale=1.0, initial-scale=1.0, width=device-width' name='viewport'/>
     <title></title>
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
 </head>
